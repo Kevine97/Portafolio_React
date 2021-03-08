@@ -1,9 +1,7 @@
-import React, {useState} from 'react'
-const Navbar = () => {
+import React from 'react'
+
+const Navbar = ({navbar, setNavbar}) => {
   
-
-  const [navbar, setNavbar] = useState(false);
-
   const changeBackground = () => {
     if(window.scrollY >= 534){
 
@@ -12,6 +10,11 @@ const Navbar = () => {
         setNavbar(false);
     }
   }
+
+  const handleClick = () => {
+    window['scrollTo']({ top: 0, behavior: 'smooth'});
+  };
+  
 
 
   window.addEventListener('scroll', changeBackground);
@@ -51,6 +54,9 @@ const Navbar = () => {
   </div>
   </div>
 </nav>
+       <button className={navbar ? 'btn btn-primary scollButtons' : 'ocultar'} onClick={handleClick}>
+        <i className="fa fa-angle-up" aria-hidden="true"></i>
+      </button>
 </header>
 );
 }

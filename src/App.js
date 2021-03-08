@@ -1,3 +1,4 @@
+import React, {useState} from 'react'
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "react-particles-js"
@@ -5,7 +6,13 @@ import Navbar from "./componentes/Navbar";
 import Header from "./componentes/Header";
 import About from "./componentes/About";
 
+
+
+
 function App() {
+
+  const [navbar, setNavbar] = useState(false);
+  const [showBelow, setShowBelow] = useState(false);
   return (
     <>
     <Particles
@@ -32,9 +39,13 @@ function App() {
 
     }}
     />
-      <Navbar />
+      <Navbar 
+        navbar = {navbar}
+        setNavbar = {setNavbar}
+      />
       <Header />
       <About/>
+    
     </>
   );
 }
