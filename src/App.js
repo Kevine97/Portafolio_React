@@ -5,6 +5,7 @@ import Particles from "react-particles-js"
 import Navbar from "./componentes/Navbar";
 import Header from "./componentes/Header";
 import About from "./componentes/About";
+import Services from './componentes/Services';
 
 
 
@@ -12,7 +13,7 @@ import About from "./componentes/About";
 function App() {
 
   const [navbar, setNavbar] = useState(false);
-  const [showBelow, setShowBelow] = useState(false);
+
   return (
     <>
     <Particles
@@ -45,7 +46,7 @@ function App() {
       />
       <Header />
       <About/>
-    
+      <Services/>
     </>
   );
 }

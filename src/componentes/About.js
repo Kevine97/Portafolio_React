@@ -2,7 +2,7 @@ import React from "react";
 import author from "../asset/img/Perfil3.jpg";
 const About = () => {
   return (
-    <div className="container py-5">
+    <div className="container py-5 mb-5">
       <div className="row">
         <div className="col-lg-6 col-xm-12">
          <div className="photo-wrap">
