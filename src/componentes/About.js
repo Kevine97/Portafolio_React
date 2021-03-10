@@ -45,7 +45,7 @@ const About = () => {
                   className="btn-main-cv  mt-4"
                   download
                 >
-                  Download CV
+                  Descargar CV
                 </a>
               </p>
             </div>

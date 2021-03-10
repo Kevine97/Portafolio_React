@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className="padding">
         <div className="main-info">
-            <span className="span-Hey mt-5">Hi, my name is</span>
+            <span className="span-Hey mt-5">Hola, mi nombre es</span>
             <h1 className="nombre">Kevin Esquivel</h1>
             <img
             className="img-fluid profile-img"
@@ -16,16 +16,16 @@ const Header = () => {
           
           ></img>
           {/* <h1>Web development and website promotions</h1> */}
-            <h3 className="typed-spam">I'm a<Typed
+            <h3 className="typed-spam">Soy<Typed
                 className="typed-text ml-2"
-                strings={["Web development", "Front-end", "Backend", "Web design"]}
+                strings={["Web development", "Front-end development", "Backend development", "UX/UI"]}
                 typeSpeed={50}
                 backSpeed={70}
                 loop
             />
             </h3>
         
-            <a href="/#" className="btn-main-offer mt-4">Contact</a>
+            <a href="/#" className="btn-main-offer mt-4">Contacto</a>
         </div>
         </div>
     )

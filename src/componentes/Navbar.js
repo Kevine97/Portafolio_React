@@ -27,28 +27,28 @@ const Navbar = ({navbar, setNavbar}) => {
      <div className="container">
    <a className="navbar-brand" href="/index.html"><span style={{marginLeft:'5px'}}>K</span> <span style={{marginLeft:'12px'}} className="mr-5">Esquivel</span></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span className=""> <i className="fas fa-hamburger"></i></span>
+    <span className="textoMenu"><i className="fas fa-hamburger mr-1"></i>MENU</span>
   </button>
 
   <div className="collapse navbar-collapse "  id="navbarSupportedContent">
     <ul className="navbar-nav ml-auto">
       <li className="nav-item">
-        <a className="nav-link" href="/#">Home</a>
+        <a className="nav-link" href="/#">Inico</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/#">About</a>
+        <a className="nav-link" href="/#">Sobre mí</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/#">Services</a>
+        <a className="nav-link" href="/#">Servicios</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/#">Skill</a>
+        <a className="nav-link" href="/#">Habilidades</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="/#">Portafolio</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/#">Contacts</a>
+        <a className="nav-link" href="/#">Contactos</a>
       </li>
     </ul>
   </div>

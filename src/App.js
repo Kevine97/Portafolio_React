@@ -6,7 +6,7 @@ import Navbar from "./componentes/Navbar";
 import Header from "./componentes/Header";
 import About from "./componentes/About";
 import Services from './componentes/Services';
-
+import Skill from './componentes/Skill';
 
 
 
@@ -47,6 +47,7 @@ function App() {
       <Header />
       <About/>
       <Services/>
+      <Skill/>
     </>
   );
 }
