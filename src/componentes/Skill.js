@@ -15,24 +15,24 @@ const Skill = () => {
         <div className="row">
           <div className="col-md-6 animate-box">
             <div className="progress-wrap ftco-animate fadeInUp ftco-animated">
-              <h3 className="text-skill">Photoshop</h3>
+              <h3 className="text-skill">Html 5</h3>
               <div className="progress">
                 <div
                   className="progress-bar color-1"
                   role="progressbar"
-                  aria-valuenow="100"
+                  aria-valuenow="95"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "50%" }}
+                  style={{ width: "95%" }}
                 >
-                  <span>50%</span>
+                  <span>95%</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="col-md-6 animate-box">
             <div className="progress-wrap ftco-animate">
-              <h3>jQuery</h3>
+              <h3>css 3</h3>
               <div className="progress">
                 <div
                   className="progress-bar color-2"
@@ -49,24 +49,24 @@ const Skill = () => {
           </div>
           <div className="col-md-6 animate-box">
             <div className="progress-wrap ftco-animate">
-              <h3>HTML5</h3>
+              <h3>JavaScript</h3>
               <div className="progress">
                 <div
                   className="progress-bar color-3"
                   role="progressbar"
-                  aria-valuenow="95"
+                  aria-valuenow="90"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "95%" }}
+                  style={{ width: "90%" }}
                 >
-                  <span>95%</span>
+                  <span>90%</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="col-md-6 animate-box">
             <div className="progress-wrap ftco-animate">
-              <h3>CSS3</h3>
+              <h3>bootstrap</h3>
               <div className="progress">
                 <div
                   className="progress-bar color-4"
@@ -83,7 +83,7 @@ const Skill = () => {
           </div>
           <div className="col-md-6 animate-box">
             <div className="progress-wrap ftco-animate">
-              <h3>WordPress</h3>
+              <h3>React</h3>
               <div className="progress">
                 <div
                   className="progress-bar color-5"
@@ -100,17 +100,54 @@ const Skill = () => {
           </div>
           <div className="col-md-6 animate-box">
             <div className="progress-wrap ftco-animate">
-              <h3>SEO</h3>
+              <h3>React native</h3>
               <div className="progress">
                 <div
                   className="progress-bar color-6"
                   role="progressbar"
-                  aria-valuenow="80"
+                  aria-valuenow="65"
                   aria-valuemin="0"
                   aria-valuemax="100"
-                  style={{ width: "80%" }}
+                  style={{ width: "65%" }}
                 >
-                  <span>80%</span>
+                  <span>65%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-6 animate-box">
+            <div className="progress-wrap ftco-animate">
+              <h3>Node js</h3>
+              <div className="progress">
+                <div
+                  className="progress-bar color-6"
+                  role="progressbar"
+                  aria-valuenow="65"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "65%" }}
+                >
+                  <span>65%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="col-md-6 animate-box">
+            <div className="progress-wrap ftco-animate">
+              <h3>Asp.net</h3>
+              <div className="progress">
+                <div
+                  className="progress-bar color-6"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "75%" }}
+                >
+                  <span>75%</span>
                 </div>
               </div>
             </div>

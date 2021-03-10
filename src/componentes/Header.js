@@ -10,7 +10,7 @@ const Header = () => {
             <span className="span-Hey mt-5">Hola, mi nombre es</span>
             <h1 className="nombre">Kevin Esquivel</h1>
             <img
-            className="img-fluid profile-img"
+            className="img-fluid profile-img mb-2"
             src={author}
             alt="Perfil"
           
@@ -25,7 +25,7 @@ const Header = () => {
             />
             </h3>
         
-            <a href="/#" className="btn-main-offer mt-4">Contacto</a>
+            <a href="https://api.whatsapp.com/send?phone=50588862060&text=Hola%20Kevin%20"target="_blank" rel="nooponer noreferrer" className="btn-main-offer mt-4">Contacto</a>
         </div>
         </div>
     )

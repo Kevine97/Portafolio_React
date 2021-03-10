@@ -24,8 +24,8 @@ const Navbar = ({navbar, setNavbar}) => {
       <header className="header-wraper">
        
      <nav className={navbar ? 'navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target navbar-fixed-top fixed-top activate' : 'navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target navbar-fixed-top'}>
-     <div className="container">
-   <a className="navbar-brand" href="/index.html"><span style={{marginLeft:'5px'}}>K</span> <span style={{marginLeft:'12px'}} className="mr-5">Esquivel</span></a>
+     <div className="container mt-2">
+   <a className="navbar-brand" href="/"><span style={{marginLeft:'5px'}}>K</span> <span style={{marginLeft:'12px'}} className="mr-5">Esquivel</span></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="textoMenu"><i className="fas fa-hamburger mr-1"></i>MENU</span>
   </button>
@@ -43,6 +43,9 @@ const Navbar = ({navbar, setNavbar}) => {
       </li>
       <li className="nav-item">
         <a className="nav-link" href="/#">Habilidades</a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href="/#">Experiencia</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="/#">Portafolio</a>
