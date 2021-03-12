@@ -1,4 +1,5 @@
 import React from 'react';
+// Typed
 import Typed from "react-typed";
 import author from "../asset/img/Perfil2.png";
 const Header = () => {

@@ -4,7 +4,7 @@ const Skill = () => {
   return (
     <div className="container-fluid px-md-5 ">
       <div className="page three">
-        <h2 className="text-center mb-4 sobremi font-weight-bold">
+        <h2 className="text-center mb-4 text-uppercase sobremi font-weight-bold colorTexto">
           Habilidades
         </h2>
         <p className="text-center" style={{ marginBottom: "90px" }}>

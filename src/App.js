@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+// PARTICULAS
 import Particles from "react-particles-js"
 import Navbar from "./componentes/Navbar";
 import Header from "./componentes/Header";
@@ -8,6 +9,9 @@ import About from "./componentes/About";
 import Services from './componentes/Services';
 import Skill from './componentes/Skill';
 import Experience from './componentes/Experience';
+import Portafolio from './componentes/Portafolio';
+
+
 
 
 
@@ -15,6 +19,9 @@ function App() {
 
   const [navbar, setNavbar] = useState(false);
 
+
+
+  
   return (
     <>
     <Particles
@@ -50,6 +57,7 @@ function App() {
       <Services/>
       <Skill/>
       <Experience/>
+      <Portafolio/>
     </>
   );
 }

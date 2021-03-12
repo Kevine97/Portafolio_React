@@ -13,7 +13,7 @@ const Services = () => {
         <div className="row justify-content-center py-5">
           <div className="col-md-12 heading-section text-center ftco-animate">
             <h1 className="big big-2">Servicios</h1>
-            <h2 className="mb-4">Servicios</h2>
+            <h2 className="mb-4 text-uppercase colorTexto">Servicios</h2>
             <p>
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia

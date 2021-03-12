@@ -13,7 +13,7 @@ const About = () => {
          </div>
         </div>
         <div className="col-lg-6 col-xm-12 heading-section ftco-animate">
-          <h2 className="mb-4 mb-md-4 sobremi font-weight-bold">Sobre mí</h2>
+          <h2 className="mb-4 mb-md-4 sobremi font-weight-bold colorTexto">Sobre mí</h2>
           <p>Soy un joven apasionado por el desarrollo de software.</p>
           <ul className="about-info mt-4 px-md-0 px-2">
             <li className="d-flex">

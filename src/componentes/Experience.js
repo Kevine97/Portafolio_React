@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <div className="experience">
       <div className="d-flex justify-content-center my-4">
-        <h1>Experiencia</h1>
+        <h1 className="text-uppercase colorTexto">Experiencia</h1>
         
       </div>
       <p className="text-center" style={{ marginBottom: "90px" }}>
