@@ -15,17 +15,17 @@ const Portafolio = () => {
       <>
         <img
           className="portafolio-image-popupbox"
-          src={Netflix}
+          src="https://i.ibb.co/bgVCRFR/Compu-Trabajo.png"
           alt="Proyecto Netflix"
         ></img>
         <p>lorem ipsum</p>
         <b>Github: </b>
-        <a className="hyper-link" onClick={openNetlix}>
+        <a className="hyper-link" href="https://github.com/Kevine97" target="_blank" rel="nooponer noreferrer" onClick={openNetlix}>
           https://github.com/Kevine97
         </a>
         <br />
         <b>Demo: </b>
-        <a className="hyper-link" onClick={openNetlix}>
+        <a className="hyper-link" href="https://github.com/Kevine97" target="_blank" rel="nooponer noreferrer" onClick={openNetlix}>
           https://github.com/Kevine97
         </a>
       </>
@@ -72,8 +72,9 @@ const Portafolio = () => {
           <div className="portafolio-image-box" onClick={openPupupboxNetflix}>
             <img
               className="portafolio-image"
-              src={Netflix}
+              src="https://i.ibb.co/bgVCRFR/Compu-Trabajo.png"
               alt="Proyeccto Netflix"
+              height="130"
             />
             <div className="overflow"></div>
             <i className="fa fa-search portafolio-icon" aria-hidden="true"></i>

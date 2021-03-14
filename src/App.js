@@ -10,6 +10,7 @@ import Services from './componentes/Services';
 import Skill from './componentes/Skill';
 import Experience from './componentes/Experience';
 import Portafolio from './componentes/Portafolio';
+import Spinner from './componentes/Spinner';
 
 
 
@@ -18,12 +19,30 @@ import Portafolio from './componentes/Portafolio';
 function App() {
 
   const [navbar, setNavbar] = useState(false);
+  const [cargando, setCargando] = useState(true);
+
+ 
+
+  const cargandoSnipper = ()=> {
+   
+    setTimeout(() => {
+      setCargando(false);
+ 
+    }, 1000);
+    
+  }
 
 
-
+  window.onload = ()=> {
+    
+    cargandoSnipper();
   
+  }
   return (
     <>
+    {cargando ? <Spinner/> : <> 
+    
+    
     <Particles
     className="particles-canvas"
     params={{
@@ -48,6 +67,8 @@ function App() {
 
     }}
     />
+
+
       <Navbar 
         navbar = {navbar}
         setNavbar = {setNavbar}
@@ -57,7 +78,12 @@ function App() {
       <Services/>
       <Skill/>
       <Experience/>
-      <Portafolio/>
+      <Portafolio/> 
+      </>
+
+
+
+      }
     </>
   );
 }
