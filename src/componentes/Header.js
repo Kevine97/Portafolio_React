@@ -1,9 +1,9 @@
 import React from 'react';
 // Typed
 import Typed from "react-typed";
-import author from "../asset/img/Perfil2.png";
 const Header = () => {
 
+    const author = 'https://i.ibb.co/DppnJh5/Perfil2.jpg'
 
     return (
         <div className="padding">

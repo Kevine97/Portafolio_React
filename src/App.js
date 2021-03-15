@@ -11,6 +11,7 @@ import Skill from './componentes/Skill';
 import Experience from './componentes/Experience';
 import Portafolio from './componentes/Portafolio';
 import Spinner from './componentes/Spinner';
+import Contact from './componentes/Contact';
 
 
 
@@ -79,6 +80,7 @@ function App() {
       <Skill/>
       <Experience/>
       <Portafolio/> 
+      <Contact/>
       </>
 
 

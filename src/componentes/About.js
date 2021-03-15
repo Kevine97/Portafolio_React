@@ -1,6 +1,6 @@
 import React from "react";
-import author from "../asset/img/Perfil3.jpg";
 const About = () => {
+  const author = 'https://i.ibb.co/QkSWtSb/Perfil3.jpg'
   return (
     <div className="container py-5 mb-5">
       <div className="row">
