@@ -14,6 +14,10 @@ const Navbar = ({navbar, setNavbar}) => {
   const handleClick = () => {
     window['scrollTo']({ top: 0, behavior: 'smooth'});
   };
+
+  const whatsapp = ()=>{
+    window.open("https://api.whatsapp.com/send?phone=50588862060&text=Hola%20Kevin%20", "_blank")
+  }
   
 
 
@@ -57,9 +61,14 @@ const Navbar = ({navbar, setNavbar}) => {
   </div>
   </div>
 </nav>
-       <button className={navbar ? 'btn btn-primary scollButtons' : 'ocultar'} onClick={handleClick}>
+      <button className={navbar ? 'btn btn-primary scollButtons whatsapp' : 'ocultar'} onClick={whatsapp} style={{marginBottom: navbar ? '70px' : '0'}}>
+      <i className="fab fa-whatsapp" aria-hidden="true"></i>
+      </button>
+
+       <button className={navbar ? 'btn btn-primary scollButtons mt-5' : 'ocultar'} onClick={handleClick}>
         <i className="fa fa-angle-up" aria-hidden="true"></i>
       </button>
+     
 </header>
 );
 }

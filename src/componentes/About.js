@@ -1,6 +1,11 @@
 import React from "react";
 const About = () => {
   const author = 'https://i.ibb.co/QkSWtSb/Perfil3.jpg'
+
+  const cv = ()=>{
+    window.open('./CV/CV Kevin Esquivel.pdf')
+  }
+
   return (
     <div className="container py-5 mb-5">
       <div className="row">
@@ -41,9 +46,9 @@ const About = () => {
             <div className="text">
               <p>
                 <a
-                  href="./CV/CV Kevin Esquivel.pdf"
+                  onClick={cv}
                   className="btn-main-cv  mt-4"
-                  download
+                
                 >
                   Descargar CV
                 </a>

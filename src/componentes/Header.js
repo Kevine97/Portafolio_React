@@ -4,6 +4,9 @@ import Typed from "react-typed";
 const Header = () => {
 
     const author = 'https://i.ibb.co/DppnJh5/Perfil2.jpg'
+    const whatsapp = ()=>{
+        window.open("https://api.whatsapp.com/send?phone=50588862060&text=Hola%20Kevin%20", "_blank")
+      }
 
     return (
         <div className="padding">
@@ -26,7 +29,7 @@ const Header = () => {
             />
             </h3>
         
-            <a href="https://api.whatsapp.com/send?phone=50588862060&text=Hola%20Kevin%20"target="_blank" rel="nooponer noreferrer" className="btn-main-offer mt-4">Contacto</a>
+            <a className="btn-main-offer mt-4" onClick={whatsapp}>Contacto</a>
         </div>
         </div>
     )

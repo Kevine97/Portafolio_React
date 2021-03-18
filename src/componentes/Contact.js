@@ -12,37 +12,49 @@ const Contact = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-xs-12">
-            {/* NAME INPUES */}
-            <div className="text-center">
+          <div className="text-center">
             <input
               className="form-control"
-              placeholder="Nombre y Apellido"
-              name="nombre"
+              placeholder="Asunto"
+              name="subject"
               type="text"
-              id="nombre"
+              id="asunto"
               autoComplete="off"
             />
+            
             <div className="line"></div>
             </div>
             {/* NAME INPUES */}
             <div className="text-center">
             <input
               className="form-control"
-              placeholder="Telefono"
-              phone="phone"
+              placeholder="Nombre y Apellido"
+              name="name"
               type="text"
-              id="phone"
+              id="nombre"
               autoComplete="off"
             />
-            
             <div className="lineBoton"></div>
             </div>
             {/* NAME INPUES */}
             <div className="text-center">
             <input
               className="form-control"
+              placeholder="Telefono"
+              name="phone"
+              type="number"
+              id="phone"
+              autoComplete="off"
+            />
+            
+            <div className="line"></div>
+            </div>
+            {/* NAME INPUES */}
+            <div className="text-center">
+            <input
+              className="form-control"
               placeholder="Email"
-              email="email"
+              name="email"
               type="email"
               id="email"
               autoComplete="off"
@@ -56,7 +68,7 @@ const Contact = () => {
             <textarea
               className="form-control"
               placeholder="Descripcion"
-              email="descripcion"
+              name="description"
               type="text"
               id="descripcion"
             ></textarea>
