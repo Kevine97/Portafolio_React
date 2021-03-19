@@ -2,7 +2,7 @@ import React from "react";
 
 const Skill = () => {
   return (
-    <div className="container-fluid px-md-5 ">
+    <div className="container-fluid px-md-5" id="skill">
       <div className="page three">
         <h2 className="text-center mb-4 text-uppercase sobremi font-weight-bold colorTexto">
           Habilidades

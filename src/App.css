@@ -1,5 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap");
+
+:root {
+  --primary-white: #ffffff;
+  --primary-light-grey: #f4f4f4;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: #666666;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgb(52, 58, 64);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+  --primary-black: #000000;
+  --primary-transparent-black: rgba(0,0,0,0.7);
+  --primary-green: green;
+}
+
 *,
 *::before,
 *::after {
@@ -636,8 +651,8 @@ h2 {
   box-shadow: 0px 8px 15px -2px rgba(48, 48, 48, 1);
 }
 
-.fixed-top {
-  transition: all 0.2s ease-in-out 0s;
+.fixed-top, .iconos {
+  transition: all 0.8s ease-in-out 0s !important;
 }
 
 .scollButtons {
@@ -1623,3 +1638,28 @@ input:focus+.lineBoton{
     margin-top: 3px !important;
   }
 }
+
+
+/************************ FOOTER COMPONENT *********************************/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #007bff;
+  cursor:pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+

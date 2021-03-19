@@ -8,7 +8,7 @@ const Services = () => {
     }
 
   return (
-    <section className="ftco-section clases ">
+    <section className="ftco-section clases " id="services">
       <div className="container-fluid px-md-5 color">
         <div className="row justify-content-center py-5">
           <div className="col-md-12 heading-section text-center ftco-animate">

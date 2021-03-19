@@ -87,7 +87,7 @@ const Portafolio = () => {
 
 
   return (
-    <section className="ftco-section ftco-project" id="projects-section">
+    <section className="ftco-section ftco-project" id="portafolio">
     <div className="container-fluid px-md-0">
       <div className="row no-gutters justify-content-center pb-5">
         <div className="col-md-12 heading-section text-center ftco-animate">

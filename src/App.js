@@ -12,6 +12,7 @@ import Experience from './componentes/Experience';
 import Portafolio from './componentes/Portafolio';
 import Spinner from './componentes/Spinner';
 import Contact from './componentes/Contact';
+import Footer from './componentes/Footer';
 
 
 
@@ -81,6 +82,7 @@ function App() {
       <Experience/>
       <Portafolio/> 
       <Contact/>
+      <Footer/>
       </>
 
 
