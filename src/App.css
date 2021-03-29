@@ -1662,4 +1662,9 @@ input:focus+.lineBoton{
   margin-bottom: 0;
 }
 
-
+@media (max-width:400px){
+  .correo{
+    font-size: 17px !important;
+    font-weight:'bold' !important; 
+  }
+}
