@@ -64,7 +64,7 @@ const Contact = () => {
                   id="asunto"
                   autoComplete="off"
                   ref={register({
-                    required: "el campo noo puede quedar vacio",
+                    required: "Ingrese un asunto",
                   })}
                 />
 
@@ -83,7 +83,7 @@ const Contact = () => {
                   id="nombre"
                   autoComplete="off"
                   ref={register({
-                    required: "el campo noo puede quedar vacio",
+                    required: "Ingrese un nombre y/o apellido",
                     maxLength: {
                       value: 20,
                       message: "Escriba menos de 20 caracteres",
@@ -128,10 +128,10 @@ const Contact = () => {
                   id="email"
                   autoComplete="off"
                   ref={register({
-                    required: "el campo noo puede quedar vacio",
+                    required: "Ingrese un email",
                     maxLength: {
-                      value: 20,
-                      message: "Escriba menos de 20 caracteres",
+                      value: 50,
+                      message: "Escriba menos de 50 caracteres",
                     },
                   })}
                 />
@@ -151,7 +151,7 @@ const Contact = () => {
                   type="text"
                   id="descripcion"
                   ref={register({
-                    required: "el campo noo puede quedar vacio",
+                    required: "Ingrese una descripcion",
                     minLength: {
                       value: 10,
                       message: "Escriba mas de 10 caracteres",

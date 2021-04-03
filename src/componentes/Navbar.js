@@ -35,13 +35,50 @@ const Navbar = ({navbar, setNavbar}) => {
       
   }
 
-  const handleCerrar= (e) => { 
-    const $textoMenu = document.querySelector('#textoMenu');    
-    if($textoMenu.textContent === "MENU"){      
-      $textoMenu.innerHTML=`<i class="fas fa-times mr-1" id="iconoMenu" aria-hidden="true"></i>CERRAR`
-    }else{
-      $textoMenu.innerHTML=`<i class="fas fa-hamburger mr-1" id="iconoMenu" aria-hidden="true"></i>MENU`
-    } 
+  const handleCerrar= (e) => {
+    const $show = document.querySelector('.show');  
+    const $textoMenu = document.querySelector('#textoMenu')
+    const $menu = document.querySelector('#navbarSupportedContent');
+    const $btn = document.querySelector('#navigationMenu');
+
+    console.log(e.target.classList);
+
+    if(e.target.classList.contains('textoMenu')){
+      if($show){
+        $textoMenu.innerHTML=`<i class="fas fa-hamburger mr-1" id="iconoMenu" aria-hidden="true"></i>MENU`      
+      }else{
+        $textoMenu.innerHTML=`<i class="fas fa-times mr-1" id="iconoMenu" aria-hidden="true"></i>CERRAR`      
+      }
+    }
+
+    if(e.target.classList.contains('fa-hamburger')){
+      if($show){
+        $textoMenu.innerHTML=`<i class="fas fa-hamburger mr-1" id="iconoMenu" aria-hidden="true"></i>MENU`      
+      }else{
+        $menu.classList.add('show');
+        $textoMenu.innerHTML=`<i class="fas fa-times mr-1" id="iconoMenu" aria-hidden="true"></i>CERRAR`      
+      }
+    }
+
+    if(e.target.classList.contains('fa-times')){
+      $textoMenu.innerHTML=`<i class="fas fa-hamburger mr-1" id="iconoMenu" aria-hidden="true"></i>MENU`  
+      $menu.classList.remove('show');
+      $btn.ariaExpanded = false;
+    }
+    
+    if(e.target.classList.contains('collapsed') || e.target.classList.contains('navbar-toggler')){
+      
+      if($textoMenu.textContent==="MENU"){
+        $textoMenu.innerHTML=`<i class="fas fa-times mr-1" id="iconoMenu" aria-hidden="true"></i>CERRAR`  
+      }else{
+        $textoMenu.innerHTML=`<i class="fas fa-hamburger mr-1" id="iconoMenu" aria-hidden="true"></i>MENU`   
+      }
+
+    }
+   
+
+
+    
   }
 
  
