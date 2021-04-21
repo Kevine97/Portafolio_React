@@ -465,6 +465,12 @@ a {
   .services h1 {
     margin-top: -40px !important;
   }
+
+
+  .fa-github{
+    font-size: 30px !important;
+  }
+
 }
 
 @media (max-width: 550px) {
@@ -537,7 +543,7 @@ h2 {
   .scollButtons {
     position: fixed !important;
     bottom: 20px;
-    right: 30px;
+    right: 6px;
     z-index: 99;
     outline: none !important;
     display: block;
@@ -658,7 +664,7 @@ h2 {
 .scollButtons {
   position: fixed !important;
   bottom: 20px;
-  right: 30px;
+  right: 10px;
   z-index: 99;
   outline: none !important;
   display: block;
@@ -1685,3 +1691,4 @@ input:focus+.lineBoton{
 .demo{
   font-size: 1rem !important;
 }
+
