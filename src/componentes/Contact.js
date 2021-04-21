@@ -47,8 +47,7 @@ const Contact = () => {
     <div className="contacts bg-dark" id="contact">
       <h1 className="text-center text-uppercase colorTexto">Contacto</h1>
       <p className="text-center">
-        Far far away, behind the word mountains, far from the countries Vokalia
-        and Consonantia
+        Puede contactarse con mi persona, llenando el formulario y este me mandara un correo electronico.
       </p>
 
       <div className="container">

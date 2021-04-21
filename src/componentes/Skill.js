@@ -8,8 +8,7 @@ const Skill = () => {
           Habilidades
         </h2>
         <p className="text-center" style={{ marginBottom: "90px" }}>
-          Far far away, behind the word mountains, far from the countries
-          Vokalia and Consonantia
+         Habilidades tecnicas las cuales manejo día a día 
         </p>
 
         <div className="row">

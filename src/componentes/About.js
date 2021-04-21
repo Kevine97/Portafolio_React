@@ -3,7 +3,7 @@ const About = () => {
   const author = 'https://i.ibb.co/QkSWtSb/Perfil3.jpg'
 
   const cv = ()=>{
-    window.open('./CV/CV Kevin Esquivel.pdf')
+    window.open('./CV/CV Kevin Esquivel Rojas.pdf')
   }
 
   return (

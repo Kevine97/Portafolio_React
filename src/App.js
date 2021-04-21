@@ -28,7 +28,7 @@ function App() {
 
   const calcularResolucion = () => {
     if (window.innerWidth <= 768) {
-      console.log("Calculando la resolucion de pantalla");
+      
       setValue(120);
       setValue_area(800);
     }

@@ -122,7 +122,7 @@ nav ul li {
 }
 .header-wraper {
   position: relative;
-  background: url(./asset/img/wall-and-laptop-background.jpg) no-repeat;
+  background: url('https://i.ibb.co/CWtTc6z/wall-and-laptop-background.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;

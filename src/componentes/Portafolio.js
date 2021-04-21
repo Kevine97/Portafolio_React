@@ -11,6 +11,8 @@ const Portafolio = () => {
   const imgTrabajo = 'https://i.ibb.co/bgVCRFR/Compu-Trabajo.png'
   const imgClima = 'https://i.ibb.co/nzQcDrx/Clima.png'
   const imgAgenciaVijae = 'https://i.ibb.co/0nTzvcb/Agencia.png'
+  const imgAgendacita = 'https://i.ibb.co/M6Bq91X/agendacita.png'
+  const imgClimatica = 'https://i.ibb.co/6HDvcqr/Climatica.png'
 
 
   const github = ()=>{
@@ -21,7 +23,7 @@ const Portafolio = () => {
     const content = (
       <>
         <img className="portafolio-image-popupbox" src={imgCarritoCompra} alt="Proyecto carrito de compra" />
-        <p className="portafolio-p mt-2">Proyeccto carrito de compra en Js</p>
+        <p className="portafolio-p mt-2">Proyecto carrito de compra en Js</p>
         <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://carritojscompra.netlify.app/", "_blank")}>https://carritojscompra.netlify.app</a>
         <br />
         <b>GitHub:</b> <a className="hyper-link" onClick={github}>https://github.com/Kevine97</a>
@@ -44,7 +46,7 @@ const Portafolio = () => {
     const content = (
       <>
         <img className="portafolio-image-popupbox" src={imgTrabajo} alt="Proyecto carrito de compra" />
-        <p className="portafolio-p mt-2">Proyeccto Github jobs en Js consumiendo API de GitHub Jobs</p>
+        <p className="portafolio-p mt-2">Proyecto Github jobs en Js consumiendo API de GitHub Jobs</p>
         <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://buscatrabajo.netlify.app", "_blank")}>https://buscatrabajo.netlify.app</a>
         <br />
         <b>GitHub:</b> <a className="hyper-link" onClick={github}>https://github.com/Kevine97</a>
@@ -67,7 +69,7 @@ const Portafolio = () => {
     const content = (
       <>
         <img className="portafolio-image-popupbox" src={imgClima} alt="Proyecto carrito de compra" />
-        <p className="portafolio-p mt-2">Proyeccto clima en Js consumiendo API de tercero</p>
+        <p className="portafolio-p mt-2">Proyecto clima en Js consumiendo API de tercero</p>
         <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://climajs.netlify.app", "_blank")}>https://climajs.netlify.app</a>
         <br />
         <b>GitHub:</b> <a className="hyper-link" onClick={github}>https://github.com/Kevine97</a>
@@ -91,7 +93,7 @@ const Portafolio = () => {
       <>
         <img className="portafolio-image-popupbox" src={imgAgenciaVijae} alt="Proyecto agenciaVijae" />
         <div className="mt-2">
-        <span className="portafolio-p">Proyeccto agencia de viaje desarrollado en Node.js.</span>
+        <span className="portafolio-p">Proyecto agencia de viaje desarrollado en Node.js.</span>
         <br />
         <span className="portafolio-p">Tecnologías: Express, Mysql, Bootstrap y pug</span>
         </div>
@@ -115,6 +117,62 @@ const Portafolio = () => {
   }
 
 
+  const AgendaCita = () => {
+    const content = (
+      <>
+        <img className="portafolio-image-popupbox" src={imgAgendacita} alt="Proyecto agenciaVijae" />
+        <div className="mt-2">
+        <span className="portafolio-p">Proyecto agenda de citas para una veterinaria</span>
+        <br />
+        <span className="portafolio-p">STACK MERN</span>
+        </div>
+        
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://agendacita.netlify.app/", "_blank")}>https://agendacita.netlify.app/</a>
+        <br />
+        <b>GitHub:</b> <a className="hyper-link" onClick={github}>https://github.com/Kevine97</a>
+      </>
+    )
+    PopupboxManager.open({
+      content,
+      config: {
+        titleBar: {
+          enable: true,
+          text: 'Agencia de citas'
+        },
+        fadeIn: true,
+        fadeInSpeed: 500
+      }
+    })
+  }
+
+  const Agroclimatica = () => {
+    const content = (
+      <>
+        <img className="portafolio-image-popupbox" src={imgClimatica} alt="Proyecto agenciaVijae" />
+        <div className="mt-2">
+        <span className="portafolio-p">Proyecto de servicios climaticos geoposicionamiento</span>
+        <br />
+        <span className="portafolio-p">ASP.net MVC, Js, Jquery, Bootstrap 4, leaflet entre otras...</span>
+        </div>
+        <br />
+        <b>GitHub:</b> <a className="hyper-link" onClick={github}>https://github.com/Kevine97</a>
+      </>
+    )
+    PopupboxManager.open({
+      content,
+      config: {
+        titleBar: {
+          enable: true,
+          text: 'Climatica'
+        },
+        fadeIn: true,
+        fadeInSpeed: 500
+      }
+    })
+  }
+
+
+
   return (
     <section className="ftco-section ftco-project" id="portafolio">
     <div className="container-fluid px-md-0">
@@ -122,7 +180,7 @@ const Portafolio = () => {
         <div className="col-md-12 heading-section text-center ftco-animate">
           <h1 className="big big-2">Projects</h1>
           <h2 className="mb-4 text-uppercase colorTexto">Portafolio</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+          <p>Preyectos que he desarrollo como practica y en el mundo laboral</p>
         </div>
       </div>
       <div className="row no-gutters">
@@ -162,7 +220,27 @@ const Portafolio = () => {
             <div className="overlay"></div>
             <div className="text text-center p-4">
               <h3><a>Proyeccto agencia de viaje desarrollado en Node.js (Express), Mysql, Bootstrap y pug </a></h3>
-              <span>Frontend development</span>
+              <span>Full Stack development</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4">
+          <div onClick={AgendaCita} className="project img ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: `url(${imgAgendacita})`}}>
+            <div className="overlay"></div>
+            <div className="text text-center p-4">
+              <h3><a>Proyeccto agenda de citas para una veterinaria desarrollo con el stack MERN </a></h3>
+              <span>Full Stack development</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4">
+          <div onClick={Agroclimatica} className="project img ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: `url(${imgClimatica})`}}>
+            <div className="overlay"></div>
+            <div className="text text-center p-4">
+              <h3><a>Proyecto de geoposicionamiento climaticos multi pais</a></h3>
+              <span>Full Stack development</span>
             </div>
           </div>
         </div>

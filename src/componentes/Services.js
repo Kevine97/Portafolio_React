@@ -15,12 +15,11 @@ const Services = () => {
             <h1 className="big big-2">Servicios</h1>
             <h2 className="mb-4 text-uppercase colorTexto">Servicios</h2>
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia
+              Los diferentes servicios que ofrezco
             </p>
           </div>
         </div>
-        <div className="row" >
+        <div className="row " >
           <div className="col-md-4 col-sm-8 text-center d-flex ftco-animate mx-auto">
             <a href="/#" className="services-1 shadow box" onClick={click}>
               <span className="icon">
@@ -29,8 +28,7 @@ const Services = () => {
               <div className="desc">
                 <h3 className="mb-5">Web Design</h3>
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
+                  Diseños de sitios web (UI/UX)
                 </p>
               </div>
             </a>
@@ -43,8 +41,7 @@ const Services = () => {
               <div className="desc">
                 <h3 className="mb-5">Web Developer</h3>
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
+                  Desarrollo de sitios web a la medida
                 </p>
               </div>
             </a>
@@ -57,8 +54,7 @@ const Services = () => {
               <div className="desc">
                 <h3 className="mb-5">Front-End</h3>
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
+                  Desarrollo de sitios web del lado del cliente utilizando la libreria React
                 </p>
               </div>
             </a>
@@ -72,8 +68,7 @@ const Services = () => {
               <div className="desc">
                 <h3 className="mb-5">App Developing</h3>
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
+                  Creacion de App para android y IOS manejando React Native.
                 </p>
               </div>
             </a>
@@ -86,8 +81,7 @@ const Services = () => {
               <div className="desc">
                 <h3 className="mb-5">Backend</h3>
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
+                  Implementacion de API REST con Node.js y/o ASP.NET Core
                 </p>
               </div>
             </a>
@@ -100,8 +94,7 @@ const Services = () => {
               <div className="desc">
                 <h3 className="mb-5">Cloud</h3>
                 <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
+                 Tecnologia en la nube como AWS y AZURE
                 </p>
               </div>
             </a>

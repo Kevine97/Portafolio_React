@@ -8,8 +8,7 @@ const Experience = () => {
         
       </div>
       <p className="text-center" style={{ marginBottom: "90px" }}>
-          Far far away, behind the word mountains, far from the countries
-          Vokalia and Consonantia
+          Experiencia profesional en este maravilloso mundo del desarrollo
         </p>
       <div className="container experience-wrapper">
         <div className="timeline-block timeline-block-right">

@@ -41,7 +41,7 @@ const Navbar = ({navbar, setNavbar}) => {
     const $menu = document.querySelector('#navbarSupportedContent');
     const $btn = document.querySelector('#navigationMenu');
 
-    console.log(e.target.classList);
+
 
     if(e.target.classList.contains('textoMenu')){
       if($show){
