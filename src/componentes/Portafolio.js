@@ -179,8 +179,9 @@ const Portafolio = () => {
       <div className="row no-gutters justify-content-center pb-5">
         <div className="col-md-12 heading-section text-center ftco-animate">
           <h1 className="big big-2">Projects</h1>
-          <h2 className="mb-4 text-uppercase colorTexto">Portafolio</h2>
-          <p>Preyectos que he desarrollo como practica y en el mundo laboral</p>
+          <h2 className="text-uppercase colorTexto">Portafolio</h2>
+          <p className="text-p-titulo">Preyectos que he desarrollo como practica y en el mundo laboral</p>
+          <div className="line-mf" style={{ marginBottom: "70px" }}></div>
         </div>
       </div>
       <div className="row no-gutters">

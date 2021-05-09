@@ -1,14 +1,17 @@
-import React,{ useState} from 'react'
-import {Link} from "react-scroll"
+import React,{ useState} from 'react';
+import {Link} from "react-scroll";
+import $ from 'jquery';
 
 const Navbar = ({navbar, setNavbar}) => {
   const [open, setOpen] = useState(false);
   const changeBackground = () => {
     if(window.scrollY >= 534){
-
         setNavbar(true);
+         document.getElementById('imagen-About').classList.add('animate__animated','animate__bounce')
     }else{
         setNavbar(false);
+        // $('.services-animated').removeClass("animate__bounce");
+         document.getElementById('imagen-About').classList.remove('animate__animated','animate__bounce')
     }
   }
 

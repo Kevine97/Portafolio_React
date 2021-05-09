@@ -44,13 +44,14 @@ const Contact = () => {
   };
 
   return (
-    <div className="contacts bg-dark" id="contact">
-      <h1 className="text-center text-uppercase colorTexto">Contacto</h1>
-      <p className="text-center">
-        Puede contactarse con mi persona, llenando el formulario y este me mandara un correo electronico.
+    <div className="contacts" id="contact">
+      <h1 className="sobremi font-weight-bold colorTexto text-center text-uppercase">Contacto</h1>
+      <p className="text-center text-p-titulo">
+       Pongase en contacto conmigo llenando los siguientes campos
       </p>
-
+      <div className="line-mf" style={{ marginBottom: "40px" }}></div>
       <div className="container">
+        <div className="count-box-contacto">
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="row">
             <div className="col-md-6 col-xs-12">
@@ -168,6 +169,7 @@ const Contact = () => {
             </div>
           </div>
         </form>
+        </div>
       </div>
     </div>
   );

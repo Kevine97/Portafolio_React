@@ -13,14 +13,15 @@ const Services = () => {
         <div className="row justify-content-center py-5">
           <div className="col-md-12 heading-section text-center ftco-animate">
             <h1 className="big big-2">Servicios</h1>
-            <h2 className="mb-4 text-uppercase colorTexto">Servicios</h2>
-            <p>
+            <h2 className="text-uppercase colorTexto fuente-titulo">Servicios</h2>
+            <p className="text-p-titulo">
               Los diferentes servicios que ofrezco
             </p>
+            <div className="line-mf" style={{ marginBottom: "40px" }}></div>
           </div>
         </div>
         <div className="row " >
-          <div className="col-md-4 col-sm-8 text-center d-flex ftco-animate mx-auto">
+          <div className="col-md-4 col-sm-8 text-center d-flex ftco-animate mx-auto services-animated animate__animated">
             <a href="/#" className="services-1 shadow box" onClick={click}>
               <span className="icon">
               <i className="fas fa-palette"></i>
@@ -33,7 +34,7 @@ const Services = () => {
               </div>
             </a>
           </div>
-          <div className="col-md-4 col-sm-8 text-center d-flex ftco-animate mx-auto">
+          <div className="col-md-4 col-sm-8 text-center d-flex ftco-animate mx-auto services-animated animate__animated">
             <a href="/#" className="services-1 shadow box" onClick={click}>
               <span className="icon">
               <i className="fas fa-laptop-code"></i>
@@ -46,7 +47,7 @@ const Services = () => {
               </div>
             </a>
           </div>
-          <div className="col-md-4 col-sm-8 text-center d-flex ftco-animate mx-auto">
+          <div className="col-md-4 col-sm-8 text-center d-flex ftco-animate mx-auto services-animated animate__animated">
             <a href="/#" className="services-1 shadow box" onClick={click}>
               <span className="icon">
               <i className="fab fa-react"></i>
@@ -60,7 +61,7 @@ const Services = () => {
             </a>
           </div>
 
-          <div className="col-md-4 col-sm-8 text-center d-flex ftco-animate mx-auto">
+          <div className="col-md-4 col-sm-8 text-center d-flex ftco-animate mx-auto services-animated animate__animated">
             <a href="/#" className="services-1 shadow box" onClick={click}>
               <span className="icon">
               <i className="fas fa-mobile-alt"></i>
@@ -73,7 +74,7 @@ const Services = () => {
               </div>
             </a>
           </div>
-          <div className="col-md-4 col-sm-8 text-center d-flex ftco-animate mx-auto">
+          <div className="col-md-4 col-sm-8 text-center d-flex ftco-animate mx-auto services-animated animate__animated">
             <a href="/#" className="services-1 shadow box" onClick={click}>
               <span className="icon">
               <i className="fab fa-node-js"></i>
@@ -86,7 +87,7 @@ const Services = () => {
               </div>
             </a>
           </div>
-          <div className="col-md-4 col-sm-8 text-center d-flex ftco-animate mx-auto">
+          <div className="col-md-4 col-sm-8 text-center d-flex ftco-animate mx-auto services-animated">
             <a href="/#" className="services-1 shadow box" onClick={click}>
               <span className="icon">
               <i className="fab fa-aws"></i>

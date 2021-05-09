@@ -22,7 +22,7 @@ const Header = () => {
           {/* <h1>Web development and website promotions</h1> */}
             <h3 className="typed-spam">Soy<Typed
                 className="typed-text ml-2"
-                strings={["Web development", "Front-end development", "Backend development", "UX/UI"]}
+                strings={["Web developer", "Front-end developer", "Backend developer", "UX/UI"]}
                 typeSpeed={50}
                 backSpeed={70}
                 loop
