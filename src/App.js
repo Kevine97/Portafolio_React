@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // PARTICULAS
@@ -14,11 +14,21 @@ import Spinner from "./componentes/Spinner";
 import Contact from "./componentes/Contact";
 import Footer from "./componentes/Footer";
 
+//Librerias
+import moment from "moment";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function App() {
   const [navbar, setNavbar] = useState(false);
   const [cargando, setCargando] = useState(true);
   const [value, setValue] = useState(80);
   const [value_area, setValue_area] = useState(900);
+  const [fechaNacimiento, setfechaNacimiento] = useState("");
+
+  useEffect(() => {
+    Aos.init({duration: 1500});
+  }, []);
 
   const cargandoSnipper = () => {
     setTimeout(() => {
@@ -28,15 +38,22 @@ function App() {
 
   const calcularResolucion = () => {
     if (window.innerWidth <= 768) {
-      
       setValue(120);
       setValue_area(800);
     }
   };
 
+  const obtenerEdad = () => {
+    let nacimiento = moment("1997-09-01");
+    let hoy = moment();
+    let years = hoy.diff(nacimiento, "years");
+    setfechaNacimiento(years);
+  };
+
   window.addEventListener("DOMContentLoaded", () => {
     cargandoSnipper();
     calcularResolucion();
+    obtenerEdad();
   });
 
   return (
@@ -69,7 +86,10 @@ function App() {
 
           <Navbar navbar={navbar} setNavbar={setNavbar} />
           <Header />
-          <About />
+          <About
+            fechaNacimiento={fechaNacimiento}
+            setfechaNacimiento={setfechaNacimiento}
+          />
           <Services />
           <Skill />
           <Experience />

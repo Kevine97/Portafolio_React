@@ -1,17 +1,15 @@
-import React,{ useState} from 'react';
+import React from 'react';
 import {Link} from "react-scroll";
-import $ from 'jquery';
+
 
 const Navbar = ({navbar, setNavbar}) => {
-  const [open, setOpen] = useState(false);
   const changeBackground = () => {
     if(window.scrollY >= 534){
         setNavbar(true);
-         document.getElementById('imagen-About').classList.add('animate__animated','animate__bounce')
+         
     }else{
         setNavbar(false);
-        // $('.services-animated').removeClass("animate__bounce");
-         document.getElementById('imagen-About').classList.remove('animate__animated','animate__bounce')
+        
     }
   }
 
@@ -99,7 +97,7 @@ const Navbar = ({navbar, setNavbar}) => {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ml-auto">
       <li className="nav-item">
-        <Link smooth={true} to="home" offset={-100} className="nav-link"  onClick={handleToggleMenu} >Inico</Link>
+        <Link smooth={true} to="home" offset={-100} className="nav-link"  onClick={handleToggleMenu} >Inicio</Link>
       </li>
       <li className="nav-item">
         <Link smooth={true} to="about" offset={-100} className="nav-link"  onClick={handleToggleMenu}>Sobre mí</Link>
@@ -127,12 +125,12 @@ const Navbar = ({navbar, setNavbar}) => {
       <i className="fab fa-whatsapp" aria-hidden="true"></i>
   </button>*/}
       
-      <button className={navbar ? 'btn btn-dark scollButtons mt-5 iconos' : 'ocultar'} onClick={GitHub} style={{marginBottom: navbar ? '70px' : '0'}}>
+      <button data-aos="flip-down" className={navbar ? 'btn btn-dark scollButtons mt-5 iconos' : 'ocultar'} onClick={GitHub} style={{marginBottom: navbar ? '70px' : '0'}}>
       <i className="fab fa-github" style={{fontSize: '35px', display: 'flex', justifyContent: 'center', alignItems:'center',}}></i>
       </button>
      
 
-       <button className={navbar ? 'btn btn-primary scollButtons mt-5 iconos' : 'ocultar'} onClick={handleClick}>
+       <button data-aos="flip-down" className={navbar ? 'btn btn-primary scollButtons mt-5 iconos' : 'ocultar'} onClick={handleClick}>
         <i className="fa fa-angle-up" aria-hidden="true"></i>
       </button>
 

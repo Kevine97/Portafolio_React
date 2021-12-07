@@ -177,7 +177,7 @@ const Portafolio = () => {
     <section className="ftco-section ftco-project" id="portafolio">
     <div className="container-fluid px-md-0">
       <div className="row no-gutters justify-content-center pb-5">
-        <div className="col-md-12 heading-section text-center ftco-animate">
+        <div data-aos="flip-left" className="col-md-12 heading-section text-center ftco-animate">
           <h1 className="big big-2">Projects</h1>
           <h2 className="text-uppercase colorTexto">Portafolio</h2>
           <p className="text-p-titulo">Preyectos que he desarrollo como practica y en el mundo laboral</p>
@@ -186,7 +186,7 @@ const Portafolio = () => {
       </div>
       <div className="row no-gutters">
 
-        <div className="col-md-4 " >
+        <div data-aos="flip-right" className="col-md-4 " >
           <div onClick={openPopupboxTaskManager} className="project img ftco-animate d-flex justify-content-center align-items-center portfolio-image-box" style={{backgroundImage: `url(${imgCarritoCompra})`}} >
             <div className="overlay"></div>
             <div className="text text-center p-4">
@@ -196,7 +196,7 @@ const Portafolio = () => {
           </div>
         </div>
 
-        <div className="col-md-4">
+        <div data-aos="fade-up" className="col-md-4">
           <div onClick={compuTrabajo} className="project img ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: `url(${imgTrabajo})`}}>
             <div className="overlay"></div>
             <div className="text text-center p-4">
@@ -206,7 +206,7 @@ const Portafolio = () => {
           </div>
         </div>
 
-        <div className="col-md-4">
+        <div data-aos="flip-right" className="col-md-4">
           <div onClick={ClimaJS} className="project img ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: `url(${imgClima})`}}>
             <div className="overlay"></div>
             <div className="text text-center p-4">
@@ -216,7 +216,7 @@ const Portafolio = () => {
           </div>
         </div>
 
-        <div className="col-md-4">
+        <div data-aos="fade-right" className="col-md-4">
           <div onClick={AgenciaViaje} className="project img ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: `url(${imgAgenciaVijae})`}}>
             <div className="overlay"></div>
             <div className="text text-center p-4">
@@ -226,7 +226,7 @@ const Portafolio = () => {
           </div>
         </div>
 
-        <div className="col-md-4">
+        <div data-aos="fade-up" className="col-md-4">
           <div onClick={AgendaCita} className="project img ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: `url(${imgAgendacita})`}}>
             <div className="overlay"></div>
             <div className="text text-center p-4">
@@ -236,7 +236,7 @@ const Portafolio = () => {
           </div>
         </div>
 
-        <div className="col-md-4">
+        <div data-aos="flip-right" className="col-md-4">
           <div onClick={Agroclimatica} className="project img ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: `url(${imgClimatica})`}}>
             <div className="overlay"></div>
             <div className="text text-center p-4">

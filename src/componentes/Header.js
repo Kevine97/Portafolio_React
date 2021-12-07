@@ -1,9 +1,9 @@
 import React from 'react';
-// Typed
 import Typed from "react-typed";
+import author from './avatar.svg'
 const Header = () => {
 
-    const author = 'https://i.ibb.co/DppnJh5/Perfil2.jpg'
+
     const whatsapp = ()=>{
         window.open("https://api.whatsapp.com/send?phone=50588862060&text=Hola%20Kevin%20", "_blank")
       }
