@@ -10,7 +10,8 @@ import {
   LinkedinIcon,
 } from "react-share";
 
-import {Link} from "react-scroll"
+import { Link } from "react-scroll";
+import Logo_ from "./icons8_redux.svg";
 
 const Footer = () => {
   return (
@@ -22,7 +23,18 @@ const Footer = () => {
               <p>Managua - Nicaragua</p>
             </div>
             <div className="d-flex mt-2 mb-2">
-              <a href="tel:555-555-555">(+505) 82784374</a>
+              <a className="navbar-brand navbar-brand-footer" href="/">
+                <img
+                  src={Logo_}
+                  alt="Logotipo"
+                  width="70px"
+                  height="70px"
+                  style={{ marginTop: "-17px" }}
+                />
+                <span style={{ marginLeft: "5px" }} className="">
+                  Esquivel
+                </span>
+              </a>
             </div>
             <div className="d-flex mb-2">
               <p className="correo">Kevinesquivelrojas@hotmail.com</p>
@@ -31,18 +43,60 @@ const Footer = () => {
           <div className="col-lg-3 col-md-2 col-sm-6">
             <div className="row">
               <div className="col">
-                <Link smooth={true} to="home" offset={-100} className="footer-nav mb-3">Inicio</Link>
+                <Link
+                  smooth={true}
+                  to="home"
+                  offset={-100}
+                  className="footer-nav mb-3"
+                >
+                  Inicio
+                </Link>
                 <br />
-                <Link smooth={true} to="about" offset={-100} className="footer-nav mb-3">Sobre mi</Link>
+                <Link
+                  smooth={true}
+                  to="about"
+                  offset={-100}
+                  className="footer-nav mb-3"
+                >
+                  Sobre mi
+                </Link>
                 <br />
-                <Link smooth={true} to="services" offset={-80} className="footer-nav mb-3">Servicios</Link>
+                <Link
+                  smooth={true}
+                  to="services"
+                  offset={-80}
+                  className="footer-nav mb-3"
+                >
+                  Servicios
+                </Link>
               </div>
               <div className="col">
-                <Link smooth={true} to="experiencie" offset={-100} className="footer-nav mb-3">Experiencia</Link>
+                <Link
+                  smooth={true}
+                  to="experiencie"
+                  offset={-100}
+                  className="footer-nav mb-3"
+                >
+                  Experiencia
+                </Link>
                 <br />
-                <Link smooth={true} to="portafolio" offset={-100} className="nav-link"  className="footer-nav mb-3">Portfolio</Link>
+                <Link
+                  smooth={true}
+                  to="portafolio"
+                  offset={-100}
+                  className="footer-nav mb-3"
+                >
+                  Portfolio
+                </Link>
                 <br />
-                <Link smooth={true} to="contact" offset={-100} className="footer-nav mb-2">Contacto</Link>
+                <Link
+                  smooth={true}
+                  to="contact"
+                  offset={-100}
+                  className="footer-nav mb-2"
+                >
+                  Contacto
+                </Link>
               </div>
             </div>
           </div>

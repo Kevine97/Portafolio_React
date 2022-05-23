@@ -67,9 +67,13 @@ const Experience = () => {
         >
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2020 - Actualmente</h3>
+            <h3>2021 - Actualmente</h3>
             <li className="count-box-experience mt-3">
-              FrontEnd Developer en la empresa costarricense iDoAgency
+              Desarrollador de Software en la compañia iDo Agency ubicada en Costa Rica.
+              En esta compañia participo en diferentes tipos de proyectos para diferentes clientes, por ende 
+              tengo que estar capacitado para manejar cualquier tipo de lenguaje de Desarrollo tanto para el 
+              FrontEnd y el BackEnd, asi como ser eficiente para resolver las tareas en el tiempo estimado en 
+              cada Story Points de cada ticket que me asignan. 
             </li>
           </div>
         </div>

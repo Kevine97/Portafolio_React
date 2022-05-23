@@ -11,7 +11,7 @@ const Error404 = () => {
             <img className="img-fluid mb-5" src={error404} alt="imagen 404" width='600' height='600'></img>
           </div>
           <div className="mt-4">
-            <Link to={"/"} className="btn-main-cv py-3 boton">
+            <Link to="/" className="btn-main-cv py-3 boton">
               Back to Home
             </Link>
           </div>

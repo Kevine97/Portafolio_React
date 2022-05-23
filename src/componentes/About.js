@@ -1,7 +1,7 @@
 import React from "react";
 import aboutIMG from "./About.svg";
 
-  const About = ({ fechaNacimiento, setfechaNacimiento }) => {
+  const About = ({ fechaNacimiento, correo }) => {
   const cv = () => {
     window.open("./CV/CV Kevin Esquivel Rojas.pdf");
   };
@@ -45,22 +45,11 @@ import aboutIMG from "./About.svg";
               </li>
               <li data-aos="fade-right" className="d-flex">
                 <span className="span">
-                  <i className="fas fa-angle-right mr-2"></i>Direccion:
-                </span>{" "}
-                <span className="">Managua, americas #2</span>
-              </li>
-              <li data-aos="fade-right" className="d-flex">
-                <span className="span">
                   <i className="fas fa-angle-right mr-2"></i>Email:
                 </span>{" "}
-                <span>kevinesquivelrojas @hotmail.com </span>
+                <span> {correo ? 'kevinesquivelrojas @hotmail.com' : 'kevinesquivelrojas@hotmail.com'} </span>
               </li>
-              <li data-aos="fade-right" className="d-flex">
-                <span className="span">
-                  <i className="fas fa-angle-right mr-2"></i>Telefono:{" "}
-                </span>{" "}
-                <span className="">+505 8278-4374</span>
-              </li>
+
             </ul>
             <div data-aos="fade-right" className=" mt-4">
               <a onClick={cv} className="btn-main-cv">

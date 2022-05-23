@@ -25,6 +25,7 @@ function App() {
   const [value, setValue] = useState(80);
   const [value_area, setValue_area] = useState(900);
   const [fechaNacimiento, setfechaNacimiento] = useState("");
+  const [correo, setcorreo] = useState(false)
 
   useEffect(() => {
     Aos.init({duration: 1500});
@@ -40,6 +41,7 @@ function App() {
     if (window.innerWidth <= 768) {
       setValue(120);
       setValue_area(800);
+      setcorreo(true)
     }
   };
 
@@ -88,7 +90,7 @@ function App() {
           <Header />
           <About
             fechaNacimiento={fechaNacimiento}
-            setfechaNacimiento={setfechaNacimiento}
+            correo={correo}
           />
           <Services />
           <Skill />

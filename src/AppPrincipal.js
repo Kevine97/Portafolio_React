@@ -7,7 +7,7 @@ const AppPrincipal = () => {
   return (
     <Router>
       <Switch>
-          <Route exact path="/" component={()=><App/>}  />
+          <Route exact path="/" component={()=><App/>}  />          
           <Route  path="*" component={()=><Error404/>}  />
       </Switch>
     </Router>

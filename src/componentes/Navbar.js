@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from "react-scroll";
-
+import Logo from "./icons8_redux.svg";
 
 const Navbar = ({navbar, setNavbar}) => {
   const changeBackground = () => {
@@ -89,7 +89,9 @@ const Navbar = ({navbar, setNavbar}) => {
       <header className="header-wraper" id="home">    
      <nav  className={navbar ? 'navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target navbar-fixed-top fixed-top activate' : 'navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target navbar-fixed-top'}>
      <div className="container mt-2">
-   <a className="navbar-brand" href="/"><span style={{marginLeft:'5px'}}>K</span> <span style={{marginLeft:'12px'}} className="mr-5">Esquivel</span></a>
+     <a className="navbar-brand" href="/">
+     <img src={Logo} alt="Logotipo" width="70px" height="70px" style={{marginTop: '-17px'}}/>
+     <span style={{marginLeft:'5px'}} className="">Esquivel</span></a>
    <button onClick={handleCerrar} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="navigationMenu">
     <span className="textoMenu" id='textoMenu'><i className="fas fa-hamburger mr-1" id="iconoMenu"></i>MENU</span>
   </button>
